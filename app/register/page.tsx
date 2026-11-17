@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 
 "use client";
 
@@ -87,7 +88,7 @@ export default function RegisterPage() {
   }
 
   return (
-    <main className="flex min-h-screen items-center justify-center bg-gradient-to-br from-blue-50 via-slate-100 to-blue-100 px-4 py-8">
+    <main className="flex min-h-screen items-center justify-center bg-linear-to-br from-blue-50 via-slate-100 to-blue-100 px-4 py-8">
       <section className="w-full max-w-md rounded-2xl border border-white bg-white p-6 shadow-xl sm:p-9">
 
         {/* ESSU Logo and Header */}
