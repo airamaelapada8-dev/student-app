@@ -83,18 +83,17 @@ export default function AdminLoginPage() {
         autoComplete="off"
         className="w-full max-w-md rounded-2xl border border-slate-200 bg-white p-6 shadow-lg sm:p-8"
       >
+        {/* ESSU Logo */}
         <div className="mb-5 flex justify-center">
           <img
-           src="/logo1-removebg-preview-removebg-preview.png"
+            src="/essu-logo.png"
             alt="Eastern Samar State University Logo"
-            className="h-20 w-20 object-contain"
+            className="h-24 w-24 object-contain"
           />
         </div>
 
         <div className="text-center">
-          <h1 className="text-2xl font-bold text-blue-950">
-            Admin Login
-          </h1>
+          <h1 className="text-2xl font-bold text-blue-950">Admin Login</h1>
 
           <p className="mt-3 text-sm text-slate-600">
             Eastern Samar State University
@@ -189,9 +188,7 @@ export default function AdminLoginPage() {
             For authorized administrator use only.
           </p>
 
-          <p className="mt-2 text-xs text-slate-400">
-            Student App © 2026
-          </p>
+          <p className="mt-2 text-xs text-slate-400">Student App © 2026</p>
         </div>
       </form>
     </main>
